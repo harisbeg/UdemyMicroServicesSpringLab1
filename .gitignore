@@ -6,3 +6,8 @@ mvnw.cmd
 .mvn/**
 .settings/**
 target/**
+
+*.class
+*.war
+*.ear
+*.jar
