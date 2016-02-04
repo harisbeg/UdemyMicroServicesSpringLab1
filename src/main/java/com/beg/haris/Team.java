@@ -1,8 +1,13 @@
 package com.beg.haris;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Team {
 	
-	private Long id;
+	@Id @GeneratedValue private Long id;
 	private String name;
 	private String location;
 	private String mascot;
