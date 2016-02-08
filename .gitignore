@@ -1,13 +1,13 @@
-.classpath
-.project
-mvnw
-mvnw.cmd
+#.classpath
+#.project
+#mvnw
+#mvnw.cmd
 
-.mvn/**
-.settings/**
+#.mvn/**
+#.settings/**
 target/**
 
 *.class
 *.war
 *.ear
-*.jar
+#*.jar
